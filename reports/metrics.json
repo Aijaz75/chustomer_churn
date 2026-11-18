@@ -1,0 +1,232 @@
+{
+  "trained_at": "2026-11-14T05:46:49",
+  "best_model": "Random Forest",
+  "threshold": 0.36,
+  "beta": 1.5,
+  "selection_criterion": "highest cross-validated F1.5 at the tuned threshold",
+  "dataset": {
+    "n_rows": 7043,
+    "churn_rate": 0.2653698707936959,
+    "n_train": 5634,
+    "n_test": 1409,
+    "cv_folds": 5,
+    "random_state": 42,
+    "test_size": 0.2
+  },
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "cv_accuracy": 0.749913554115754,
+      "cv_accuracy_std": 0.012584980410422766,
+      "cv_precision": 0.5187317905596974,
+      "cv_precision_std": 0.015651998760781997,
+      "cv_recall": 0.797324414715719,
+      "cv_recall_std": 0.03511546420978375,
+      "cv_f1": 0.6283760169891291,
+      "cv_f1_std": 0.020214242528149722,
+      "cv_roc_auc": 0.8452780348329434,
+      "cv_roc_auc_std": 0.011996623408932495,
+      "threshold": 0.46,
+      "cv_f2_tuned": 0.6888519134775375,
+      "test_accuracy": 0.7267565649396736,
+      "test_precision": 0.4912559618441971,
+      "test_recall": 0.8262032085561497,
+      "test_f1": 0.6161515453639083,
+      "test_f2": 0.6829309758585516,
+      "test_roc_auc": 0.8416853961610995,
+      "test_tn": 715,
+      "test_fp": 320,
+      "test_fn": 65,
+      "test_tp": 309,
+      "test_default_accuracy": 0.7310149041873669,
+      "test_default_precision": 0.49575551782682514,
+      "test_default_recall": 0.7807486631016043,
+      "test_default_f1": 0.6064382139148494
+    },
+    {
+      "model": "Decision Tree",
+      "cv_accuracy": 0.7440524128409569,
+      "cv_accuracy_std": 0.008383448739951888,
+      "cv_precision": 0.5123440792045428,
+      "cv_precision_std": 0.011404751836675048,
+      "cv_recall": 0.7725752508361204,
+      "cv_recall_std": 0.029988644510314254,
+      "cv_f1": 0.6156052902156215,
+      "cv_f1_std": 0.005520796215267553,
+      "cv_roc_auc": 0.8287469255704021,
+      "cv_roc_auc_std": 0.010373733216317673,
+      "threshold": 0.37,
+      "cv_f2_tuned": 0.671261803259094,
+      "test_accuracy": 0.630943931866572,
+      "test_precision": 0.41183574879227053,
+      "test_recall": 0.9117647058823529,
+      "test_f1": 0.56738768718802,
+      "test_f2": 0.6638215034441449,
+      "test_roc_auc": 0.8333049161693663,
+      "test_tn": 548,
+      "test_fp": 487,
+      "test_fn": 33,
+      "test_tp": 341,
+      "test_default_accuracy": 0.758694109297374,
+      "test_default_precision": 0.5320754716981132,
+      "test_default_recall": 0.7540106951871658,
+      "test_default_f1": 0.6238938053097345
+    },
+    {
+      "model": "Random Forest",
+      "cv_accuracy": 0.7731642660925673,
+      "cv_accuracy_std": 0.00981244100472325,
+      "cv_precision": 0.5547080300158427,
+      "cv_precision_std": 0.013605412105416789,
+      "cv_recall": 0.7337792642140469,
+      "cv_recall_std": 0.03605841330285903,
+      "cv_f1": 0.6316076751570048,
+      "cv_f1_std": 0.020862416366590985,
+      "cv_roc_auc": 0.846874483679571,
+      "cv_roc_auc_std": 0.009804837900990073,
+      "threshold": 0.36,
+      "cv_f2_tuned": 0.6959513320746801,
+      "test_accuracy": 0.7189496096522356,
+      "test_precision": 0.4831288343558282,
+      "test_recall": 0.8422459893048129,
+      "test_f1": 0.6140350877192983,
+      "test_f2": 0.6854703716103113,
+      "test_roc_auc": 0.8422033635588624,
+      "test_tn": 698,
+      "test_fp": 337,
+      "test_fn": 59,
+      "test_tp": 315,
+      "test_default_accuracy": 0.772888573456352,
+      "test_default_precision": 0.5523255813953488,
+      "test_default_recall": 0.7620320855614974,
+      "test_default_f1": 0.6404494382022472
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_accuracy": 0.8045810802504647,
+      "cv_accuracy_std": 0.010398365210330723,
+      "cv_precision": 0.6687664169461208,
+      "cv_precision_std": 0.024662806451015852,
+      "cv_recall": 0.5224080267558529,
+      "cv_recall_std": 0.037446247497734834,
+      "cv_f1": 0.5859946296355408,
+      "cv_f1_std": 0.0287024562812283,
+      "cv_roc_auc": 0.8485621976109607,
+      "cv_roc_auc_std": 0.011970336155427789,
+      "threshold": 0.2,
+      "cv_f2_tuned": 0.6910770522779761,
+      "test_accuracy": 0.7217885024840313,
+      "test_precision": 0.4861111111111111,
+      "test_recall": 0.8422459893048129,
+      "test_f1": 0.6164383561643836,
+      "test_f2": 0.6873111782477341,
+      "test_roc_auc": 0.8450114960345141,
+      "test_tn": 702,
+      "test_fp": 333,
+      "test_fn": 59,
+      "test_tp": 315,
+      "test_default_accuracy": 0.8034066713981547,
+      "test_default_precision": 0.6678200692041523,
+      "test_default_recall": 0.516042780748663,
+      "test_default_f1": 0.5822021116138764
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "tenure",
+      "importance": 0.05612674055129312,
+      "std": 0.0025109974845502403
+    },
+    {
+      "feature": "Contract",
+      "importance": 0.043647472164096326,
+      "std": 0.004419164893685047
+    },
+    {
+      "feature": "InternetService",
+      "importance": 0.012699113901160053,
+      "std": 0.006267692726919271
+    },
+    {
+      "feature": "TotalCharges",
+      "importance": 0.007809294995995875,
+      "std": 0.0006513262427097626
+    },
+    {
+      "feature": "TechSupport",
+      "importance": 0.0023658580691830132,
+      "std": 0.0010360873389175724
+    },
+    {
+      "feature": "PaymentMethod",
+      "importance": 0.002193030044692601,
+      "std": 0.0015700097918179704
+    },
+    {
+      "feature": "OnlineSecurity",
+      "importance": 0.0015882611279031788,
+      "std": 0.0015501488839344646
+    },
+    {
+      "feature": "MonthlyCharges",
+      "importance": 0.0006848536516056436,
+      "std": 0.002156996149004367
+    },
+    {
+      "feature": "Dependents",
+      "importance": 0.0005551680487742682,
+      "std": 0.0005369565817076349
+    },
+    {
+      "feature": "PaperlessBilling",
+      "importance": 0.0004593247048491067,
+      "std": 0.0014938386365917523
+    },
+    {
+      "feature": "OnlineBackup",
+      "importance": 0.00031284714149173445,
+      "std": 0.001957120150779022
+    },
+    {
+      "feature": "PhoneService",
+      "importance": 0.00016972797023961927,
+      "std": 0.0001453769734930706
+    },
+    {
+      "feature": "SeniorCitizen",
+      "importance": 0.0001258105350178118,
+      "std": 0.0004673256809031965
+    },
+    {
+      "feature": "MultipleLines",
+      "importance": 8.395980262998481e-05,
+      "std": 0.00031005493589668614
+    },
+    {
+      "feature": "Partner",
+      "importance": 1.5500271254853537e-05,
+      "std": 0.0005731695577804686
+    },
+    {
+      "feature": "StreamingMovies",
+      "importance": -8.860988400616332e-05,
+      "std": 0.000751986660333936
+    },
+    {
+      "feature": "StreamingTV",
+      "importance": -0.0004750833139578914,
+      "std": 0.0008518443076609157
+    },
+    {
+      "feature": "gender",
+      "importance": -0.0005828101991783852,
+      "std": 0.0004314562369206685
+    },
+    {
+      "feature": "DeviceProtection",
+      "importance": -0.0010752021493708463,
+      "std": 0.0004788134454040747
+    }
+  ],
+  "sklearn_version": "1.9.1"
+}
